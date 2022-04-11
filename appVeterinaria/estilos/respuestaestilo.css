@@ -1,0 +1,53 @@
+
+body{
+    background-color: #da4e4e;
+}
+#cuadro1{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    
+}
+#cuadro2{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    
+}
+
+#casa{
+    width: 15%;
+    height: auto;
+}
+
+#perrofeliz{
+    width: 100%;
+    height: auto;
+}
+p {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #c3e01e;
+    text-align: center;
+}
+
+#perrotriste{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 1000px){
+    
+    #cuadro2{
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        
+    }
+    p {
+        font-size: 30px;
+
+    }
+    
+}

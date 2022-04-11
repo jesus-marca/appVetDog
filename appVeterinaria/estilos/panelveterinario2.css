@@ -1,0 +1,67 @@
+body{
+    background-image: url(../imagenes/fondo.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+#cuadro2 {
+    grid-template-columns: auto auto auto;
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+}
+#historial{
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 400px;
+    position: relative;
+}
+#deudas{
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 100px;
+    position: relative;
+    
+}
+#deudas:hover{
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+    
+    }
+#historial:hover{
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+    }
+#cerrarsesion{
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+    margin-bottom: -20px;
+}
+
+h1{
+    font-size: 70spx;
+    color: rgb(19, 94, 53);
+    margin-top: -20px;
+    align-items: center;
+    text-align: center;
+   
+}
+#reg{
+    margin-top: 10px;
+    margin-bottom: -10px;
+    margin-left: 440px;
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+}
+
+#con{
+    margin-top: 10px;
+    margin-bottom: -30px;
+    margin-left: 440px;
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+}
+span{
+padding-left: 190px;
+}
