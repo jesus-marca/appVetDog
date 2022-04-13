@@ -41,7 +41,7 @@
 
     <div id="contenedor">
         <header >
-            <h1>SISTEMA DE REGISTRO DE MASCOTAS</h1>
+            <h1>SISTEMA DE REGISTRO DE MASCOTA</h1>
         </header >
         <div id="central">
                 <div id ="titulo">
