@@ -5,7 +5,7 @@
     $_clave=md5($_REQUEST['clave']);
 
     //$conn = mysqli_connect("localhost", "root","", "app");
-    $conn = mysqli_connect("jtb9ia3h1pgevwb1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com", "uq2hk1qexkl7sepo","v4zzjfa34j0yra1f", "mmxkis2yga6v7kej");
+    $conn = mysqli_connect("jtb9ia3h1pgevwb1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com", "uq2hk1qexkl7sepo","epvcime5dlhknb7g", "mmxkis2yga6v7kej");
     if (!$conn) {
         die("Error de conexion: " . mysqli_connect_error());
     }
