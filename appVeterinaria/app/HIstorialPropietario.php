@@ -28,7 +28,7 @@ $v1 = $varsesion;
 $sql = "select  c.consulta_fecha ,b.perro_nombre ,c.consulta_id_veterinario,c.consulta_diagnostico,c.consulta_tratamiento
         from  consulta c
         inner join  perro b on c.consulta_id_perro=b.perro_id
-        where  c.consulta_id_propietario='".$v1."'"; 
+        where  c.consulta_id_propietario='".$v1."' and (c.consulta_pagada = 0 or c.consulta_pagada = 1) "; 
 
 $result = mysqli_query($conn, $sql);
 //cuantos reultados hay en la busqueda
