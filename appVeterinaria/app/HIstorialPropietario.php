@@ -16,13 +16,13 @@ if($varsesion==null || $varsesion==''){
 //$conn = mysqli_connect("localhost", "root","", "app");
  
 $conn = mysqli_connect("jtb9ia3h1pgevwb1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com", "uq2hk1qexkl7sepo","epvcime5dlhknb7g", "mmxkis2yga6v7kej");
-
+echo "entraste";
 if (!$conn) {
     die("Error de conexion: " . mysqli_connect_error());
 }
 //(nombre de la base de datos, $enlace) mysql_select_db("RelocaDB",$link);
 //capturando datos
-
+echo "entrada1";
 $v1 = $_SESSION['usuario'];
 //BUsla tabla consulta
 
@@ -35,7 +35,7 @@ $sql = "select  c.consulta_fecha ,b.perro_nombre ,c.consulta_id_veterinario,c.co
 $result = mysqli_query($conn, $sql);
 //cuantos reultados hay en la busqueda
 $num_resultados = mysqli_num_rows($result);
-
+echo "leyo 2";
 echo '<link rel="stylesheet" href="../estilos/estilohistorialpropietario.css">';
 
 echo '<body ><div class="contenedor">';
