@@ -48,7 +48,7 @@
     <div id="cuadro">
         <div id="cuadro1">
             <div class="imagen1">
-                <a href="HistorialPropietario.php"><img id="historial"src="../imagenes/historialperro.png" alt="Registro de perros"></a>
+                <a href="HistorialPropietario.php"><img id="historial"src="../imagenes/historialperro.png" alt="historial de perros"></a>
             </div>
             <div class="imagen1">
                 <a href="Deudas.php"><img id="deudas"src="../imagenes/deuda.png" alt="Consulta de perros"></a>
