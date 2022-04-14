@@ -13,7 +13,7 @@ if($varsesion==null || $varsesion==''){
 
 //conexion a la Base de datos (Servidor,usuario,password)
 //$conn = mysqli_connect("localhost", "root","", "app");
- 
+
 $conn = mysqli_connect("jtb9ia3h1pgevwb1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com", "uq2hk1qexkl7sepo","epvcime5dlhknb7g", "mmxkis2yga6v7kej");
 
 if (!$conn) {
@@ -25,8 +25,7 @@ if (!$conn) {
 $v1 = $varsesion;
 //BUsla tabla consulta
 
-$sql = "select  c.consulta_fecha ,b.perro_nombre ,c.consulta_id_veterinario,c.consulta_diagnostico,
-        c.consulta_tratamiento
+$sql = "select  c.consulta_fecha ,b.perro_nombre ,c.consulta_id_veterinario,c.consulta_diagnostico,c.consulta_tratamiento
         from  consulta c
         inner join  perro b on c.consulta_id_perro=b.perro_id
         where  c.consulta_id_propietario='".$v1."'"; 
