@@ -69,14 +69,7 @@
                     <h2>Atender mascota</h2>
                 </div>
             </div>  
-            <div class="zona">
-                <div class="logos">
-                    <a href="razas.php"><img id="consultarperro"src="../imagenes/logoPerro.jpg" alt="Consulta de perros"></a>
-                </div>
-                <div class="enunciado">
-                    <h2>Registrar nueva raza</h2>
-                </div>
-            </div>  
+            
             <footer>
                 <h3>VeterinariaMunicipal - Lima 2022 all right reserverd </h3>
             </footer>                       
