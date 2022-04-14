@@ -14,7 +14,7 @@ if($varsesion==null || $varsesion==''){
 
 //conexion a la Base de datos (Servidor,usuario,password)
 //$conn = mysqli_connect("localhost", "root","", "app");
-
+ 
 $conn = mysqli_connect("jtb9ia3h1pgevwb1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com", "uq2hk1qexkl7sepo","epvcime5dlhknb7g", "mmxkis2yga6v7kej");
 
 if (!$conn) {
