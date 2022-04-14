@@ -22,7 +22,7 @@ if (!$conn) {
 //(nombre de la base de datos, $enlace) mysql_select_db("RelocaDB",$link);
 //capturando datos
 
-$v1 = $_SESSION['usuario'];
+$v1 = $varsesion;
 //BUsla tabla consulta
 
 $sql = "select  c.consulta_fecha ,b.perro_nombre ,c.consulta_id_veterinario,c.consulta_diagnostico,
