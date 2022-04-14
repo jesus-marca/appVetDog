@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-error_reporting(0);
+//error_reporting(0);
 
 // Poner en cada archivo se necesite sesion activa
 $varsesion= $_SESSION['usuario'];
