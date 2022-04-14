@@ -17,6 +17,7 @@
     //Capturando resultado de la busqueda
     $row = mysqli_fetch_array($result);
     error_reporting(0);
+    mysqli_close($conn)
     if($row['correo']==$_usuario && $row['clave']==$_clave){
         
         //Verifica si es administrador o veterinario
