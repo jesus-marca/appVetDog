@@ -1,0 +1,141 @@
+
+#home1{
+    width: 7%;
+
+}
+#cuadro{
+    margin: 0 auto;
+    width: 80%;
+    background-color: #4f1783;
+
+
+}
+#titulo{
+    width: 100%;
+    background-color: #ca174d;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: -50px;
+    margin-top: -50px;
+    float:left
+}
+#imagen{
+    margin: 0 auto;
+    width: 40%;
+    height: auto;
+    background-color: rgb(132, 0, 255);
+    float: left;
+}
+#vet{
+    width: 100%;
+    margin-top: 200px;
+    
+    
+}
+#dog{
+    width: 100%;
+    margin-top: 90px;
+    
+    
+}
+
+#formulario{
+    width: 60%;
+    
+    margin: 0 auto;
+    float: left;
+}
+
+#form{
+    width: 100%;
+    background-color: blue;
+    margin: 0 auto;
+    
+}
+.fila{
+    width:100%;
+}
+.columna1{
+    width: 50%;
+    height: auto;
+    float: left;
+    background-color: #7c8317;
+}
+.columna1 p{
+    text-align: right;
+    color: blue;
+    font-size: 16px;
+}
+.columna1 p #reg{
+    text-align: right;
+    color: blue;
+    font-size: 20px;
+}
+
+.columna2{
+    width: 50%;
+    height: auto;
+    float: left;
+    background-color: #d30d1e;
+}
+.columna2 p{
+    padding-left: 10px;
+    text-align: left;
+    color: blue;
+}
+.columna2 p #can{
+    text-align: right;
+    color: blue;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 800px){
+
+    #titulo{
+        width: 100%;
+        background-color: #ca174d;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        float:left
+    }
+    #imagen{
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        background-color: blue;
+        float: left;
+    }
+    #vet{
+        width: 100%;
+        margin-top: 20px;
+        
+        
+    }
+    #dog{
+        width: 100%;
+        margin-top: 0px;
+        
+        
+    }
+    #formulario{
+        width: 100%;
+        background-color: #4f1783;
+        margin: 0 auto;
+        float: left;
+    }
+
+
+    .columna2 p #can{
+        text-align: right;
+        color: blue;
+        font-size: 30px;
+    }
+    .columna1 p #reg{
+        text-align: right;
+        color: blue;
+        font-size: 30px;
+    }
+
+}

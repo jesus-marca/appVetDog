@@ -1,0 +1,148 @@
+
+#home1{
+    width: 7%;
+
+}
+#cuadro{
+    margin: 0 auto;
+    width: 80%;
+    background-color: rgb(217, 255, 127);
+
+
+}
+#titulo{
+    width: 100%;
+    
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: -50px;
+    margin-top: -50px;
+    float:left
+}
+#imagen{
+    margin: 0 auto;
+    width: 40%;
+    height: auto;
+   
+    float: left;
+}
+#vet{
+    width: 100%;
+    margin-top: 200px;
+    
+    
+}
+#dog{
+    width: 100%;
+    margin-top: 143px;
+    
+    
+}
+
+#formulario{
+    width: 57%;
+    border-radius: 40px;
+    margin: 0 auto;
+    background-color: rgb(153, 104, 13);
+    float: left;
+    border: solid;
+   
+   
+}
+
+#form{
+    width: 100%;
+    background-color: blue;
+    margin: 0 auto;
+    background-image: url(../imagenes/fondo.jpg);
+}
+.fila{
+    width:100%;
+}
+#titulo p{
+    color: rgb(18, 9, 71);
+}	
+.columna1{
+    width: 50%;
+    height: auto;
+    float: left;
+    
+}
+.columna1 p{
+    text-align: right;
+    color: blue;
+    font-size: 16px;
+}
+.columna1 p #reg{
+    text-align: right;
+    color: rgb(9, 9, 26);
+    font-size: 20px;
+}
+
+.columna2{
+    width: 50%;
+    height: auto;
+    float: left;
+    
+}
+.columna2 p{
+    padding-left: 10px;
+    text-align: left;
+    color: blue;
+}
+.columna2 p #can{
+    text-align: right;
+    color: rgb(9, 9, 26);
+    font-size: 20px;
+}
+
+@media screen and (max-width: 800px){
+
+    #titulo{
+        width: 100%;
+        background-color: #ca174d;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        float:left
+    }
+    #imagen{
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        
+        float: left;
+    }
+    #vet{
+        width: 100%;
+        margin-top: 20px;
+        
+        
+    }
+    #dog{
+        width: 100%;
+        margin-top: 0px;
+        
+        
+    }
+    #formulario{
+        width: 100%;
+        
+        margin: 0 auto;
+        float: left;
+    }
+
+
+    .columna2 p #can{
+        text-align: right;
+        
+        font-size: 30px;
+    }
+    .columna1 p #reg{
+        text-align: right;
+        
+        font-size: 30px;
+    }
+
+}
