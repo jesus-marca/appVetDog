@@ -57,8 +57,9 @@
         $row1["pro_apellidos"]="";
     }
     echo '<div class="titulo1">';
-    echo '<p><img width="50"'.' height="auto"' ."src='data:".$row1["perro_tipo_imagen"].";base64,".base64_encode($row1['perro_foto'])."'>"."</p></div>";
-    //echo '<p><img width="100"'."src='data:" .$row["consulta_tipo_imagen"].";base64,".base64_encode($row['consulta_rayosx'])."'>"."</p></a></div>";
+    echo "<a href='data:" .$row["consulta_tipo_imagen"].";base64,".base64_encode($row['consulta_rayosx'])."' target='_blank' rel='noopener noreferrer '>";
+    echo '<p><img class="placa" '."src='data:" .$row["consulta_tipo_imagen"].";base64,".base64_encode($row['consulta_rayosx'])."'>"."</p></a></div>";   
+
     echo '<div class="titulo1">';
    
     echo "<p>Nombre:<br> ".$row1["perro_nombre"]."</p></div>";
