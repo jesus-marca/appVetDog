@@ -101,8 +101,8 @@
         
         echo '<div class="titulo2">';
         echo "<a href='img' target='_blank' rel='noopener noreferrer '>";
-        echo '<p><img class="placa" '."src='data:" .$row["consulta_tipo_imagen"].";base64,".base64_encode($row['consulta_rayosx'])."'>"."</p></a></div>";
-
+        //echo '<p><img class="placa" '."src='data:" .$row["consulta_tipo_imagen"].";base64,".base64_encode($row['consulta_rayosx'])."'>"."</p></a></div>";
+        echo "<a href='data:" .$row["consulta_tipo_imagen"].";base64,".base64_encode($row['consulta_rayosx'])."' target='_blank' rel='noopener noreferrer '>";
         echo '<div class="titulo2">';
         echo "<p>".$row["consulta_examen_sangre"]."</p></div>";
 
